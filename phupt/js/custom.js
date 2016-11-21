@@ -231,12 +231,12 @@ jQuery(document).ready(function(){
 	// Needed variables
 	var $map 				= $('#map'),
 		$tabContactClass 	= ('tab-contact'),
-		$lat 				= '-37.81759',
-		$lon 				= '144.964557';
+		$lat 				= '10.513599',
+		$lon 				= '105.550730';
 
 	$map.gmap().bind('init', function(ev, map) {
 		$map.gmap('addMarker', {'position': $lat +','+ $lon  , 'bounds': true}).click(function() {
-			$map.gmap('openInfoWindow', {'content': 'Hello World!'}, this);
+			$map.gmap('openInfoWindow', {'content': 'Pham Thanh Phu'}, this);
 		});
 		$map.gmap('option', 'zoom', 16);
 	});

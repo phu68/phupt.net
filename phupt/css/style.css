@@ -5,8 +5,9 @@ body {
 	background-color: #E8E8E8;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'open Sans', Arial;
-	font-size: 12px;
+	/*font-family: 'open Sans', Arial;*/
+    font-family: 'Pattaya', sans-serif;
+	font-size: 14px;
 }		/* Font face */
 @font-face {
 	font-family: 'icomoon';
@@ -113,7 +114,7 @@ h3.main-heading::after {
 	position: absolute;
 	left: 0;
 	bottom: -1px;
-	background:/*mainColor*/#fdc750;
+	background:/*mainColor*/#2AB34B;
 }	/*-------------------------------------------------------*/		/* Top Section */	/*-------------------------------------------------------*/
 header {
 	height: 60px;
@@ -156,7 +157,7 @@ header {
 	color: #FFF;
 }
 .socialicons li a:hover {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }
 .social-icons li:last-child {
 	margin-right: 0
@@ -168,7 +169,7 @@ header {
 	color: #FFF;
 }	/*-------------------------------------------------------*/		/* Profile Section */	/*-------------------------------------------------------*/
 #profile {
-	background:/*mainColor*/#fdc750;
+	background:/*mainColor*/#2AB34B;
 	background-image: url(../images/header-shadow.png);
 	background-position: center bottom;
 	background-repeat: repeat-x;
@@ -205,7 +206,7 @@ header {
 .about p {
 	font-size: 14px;
 	margin-top: 15px;
-	color:/*profileTextColor*/#a87f09;
+	color:/*profileTextColor*/#25231C;
 	font-weight: 400;
 	line-height: 20px;
 }	/* Personal info */
@@ -224,7 +225,7 @@ header {
 	overflow: hidden;
 }
 .personal-info li label {
-	color:/*profileTextColor*/#a87f09;
+	color:/*profileTextColor*/#25231C;
 	float: left;
 	padding: 4px 7px;
 	font-weight: 600;
@@ -237,7 +238,7 @@ header {
 	width: 220px;
 	padding-top: 4px;
 	font-weight: 300;
-	color:/*profileTextColor*/#a87f09;
+	color:/*profileTextColor*/#25231C;
 }	/*-------------------------------------------------------*/		/* Menu */	/*-------------------------------------------------------*/
 .menu {
 	height: 100px;
@@ -271,7 +272,7 @@ header {
 	background: url('../images/tab-hover.png') no-repeat;
 }
 .tabs li.active a {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }
 .tabs li > a > i {
 	font-size: 45px;
@@ -322,12 +323,12 @@ header {
 	margin-left: 0px;
 	color: #444;
 	font-size: 13px;
-	border-left: 1px solid /*mainColor*/#fdc750;
+	border-left: 1px solid /*mainColor*/#2AB34B;
 	padding-left: 15px;
 }
 .timeline li .timelineUnit .timelineDate {
 	line-height: 17px;
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 	font-size: 14px;
 	margin-left: 10px;
 	font-weight: normal;
@@ -402,7 +403,7 @@ header {
 	border-radius: 0px 4px 4px 0px;
 }
 #resume .button:hover {
-	background-color:/*mainColor*/#fdc750;
+	background-color:/*mainColor*/#2AB34B;
 }	/*-------------------------------------------------------*/		/* Portfolio Section */	/*-------------------------------------------------------*/
 #portfolio {
 	padding: 20px 20px 20px 20px;
@@ -422,7 +423,7 @@ header {
 	width: 180px;
 }
 #portfolio-list li:hover {
-	border-bottom: 1px solid /*mainColor*/#fdc750;
+	border-bottom: 1px solid /*mainColor*/#2AB34B;
 	height: 185px;
 }
 #portfolio-list img {
@@ -431,7 +432,7 @@ header {
 	width: 180px;
 }
 #portfolio-list li:hover .title {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }
 #portfolio-list li .title {
 	font-size: 14px;
@@ -458,10 +459,10 @@ header {
 	margin-bottom: 5px;
 }
 .cats-filter li a:hover {
-	background-color:/*mainColor*/#fdc750;
+	background-color:/*mainColor*/#2AB34B;
 }
 .cats-filter li a.current {
-	background-color:/*mainColor*/#fdc750;
+	background-color:/*mainColor*/#2AB34B;
 }	/* adipoli */
 .adipoli-wrapper {
 	margin: auto;
@@ -528,7 +529,7 @@ header {
 	filter: alpha(opacity=100);
 }
 .blog-entry > a:hover h3 {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }		/* Entry Date */
 .blog-entry .entry-date {
 	padding: 5px 10px;
@@ -583,7 +584,7 @@ header {
 	background-color: #fbfbfb;
 	padding: 12px 9px;
 	overflow: hidden;
-	border-left: 1px solid /*mainColor*/#fdc750;
+	border-left: 1px solid /*mainColor*/#2AB34B;
 	margin-bottom: 10px;
 }
 .comment-child {
@@ -617,7 +618,7 @@ header {
 	color: #ddd;
 }
 .comment .comment-meta .reply:hover {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }
 .comment .comment-body p {
 	margin-top: 8px;
@@ -642,7 +643,7 @@ header {
 	border-radius: 0px 4px 4px 0px;
 }
 #page_nav:hover {
-	background-color:/*mainColor*/#fdc750;
+	background-color:/*mainColor*/#2AB34B;
 }	/* Loading Text */
 .loading-msg img {
 	display: none;
@@ -666,7 +667,7 @@ header {
 	line-height: 20px;
 }
 .popular-posts-widget li h2 a:hover {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }
 .popular-posts-widget li span {
 	font-size: 11px;
@@ -712,7 +713,7 @@ header {
 	vertical-align: top;
 }
 .blog-single-close:hover {
-	color:/*mainColor*/#fdc750;
+	color:/*mainColor*/#2AB34B;
 }	/* Text widget */
 .text-widget {
 	padding-bottom: 30px;
@@ -734,7 +735,7 @@ header {
 }	/* Contact info */
 .contact-info ul {
 	float: left;
-	border-left: 1px solid /*mainColor*/#fdc750;
+	border-left: 1px solid /*mainColor*/#2AB34B;
 	padding-left: 18px;
 }
 .contact-info ul li {
@@ -794,7 +795,7 @@ form p label {
 	font-size: 13px;
 }
 .button:hover {
-	background-color:/*mainColor*/#fdc750;
+	background-color:/*mainColor*/#2AB34B;
 }
 .success, .error {
 	padding: 10px;
@@ -956,7 +957,7 @@ div.footer .copyright {
 	display: block;
 	width: 420px;
 	background: none;
-	border-top: 1px solid /*mainColor*/#fdc750;
+	border-top: 1px solid /*mainColor*/#2AB34B;
 }
 .personal-info li span {
 	width: 280px;
@@ -1069,7 +1070,7 @@ div.top {
 	display: block;
 	width: 280px;
 	background: none;
-	border-top: 1px solid /*mainColor*/#fdc750;
+	border-top: 1px solid /*mainColor*/#2AB34B;
 	margin-left: 10px;
 	min-height: 220px;
 	padding-left: 0;
