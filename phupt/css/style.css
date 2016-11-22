@@ -149,7 +149,7 @@ header {
 	margin-right: 2px;
 }
 .socialicons li a {
-	font-family: 'icomoon';
+	/*font-family: 'icomoon';*/
 	font-size: 16px;
 	display: block;
 	padding: 6px 8px;
@@ -165,8 +165,9 @@ header {
 .socialicons .socials-text {
 	padding: 9px;
 	height: 10px;
-	background-color: #222;
-	color: #FFF;
+	/*background-color: #222;*/
+	color: #222;
+    border-radius: 5px;
 }	/*-------------------------------------------------------*/		/* Profile Section */	/*-------------------------------------------------------*/
 #profile {
 	background:/*mainColor*/#2AB34B;
@@ -204,7 +205,7 @@ header {
 	line-height: 18px;
 }
 .about p {
-	font-size: 14px;
+	font-size: 15px;
 	margin-top: 15px;
 	color:/*profileTextColor*/#25231C;
 	font-weight: 400;
@@ -277,12 +278,12 @@ header {
 .tabs li > a > i {
 	font-size: 45px;
 	speak: none;
-	font-family: 'icomoon';
+	/*font-family: 'icomoon';*/
 	display: block;
 	margin-bottom: 5px;
 }
 .next, .prev {
-	font-family: 'icomoon';
+	/*font-family: 'icomoon';*/
 	font-size: 34px;
 	color: #eee;
 	position: absolute;
@@ -347,7 +348,7 @@ header {
 }
 .timeline li .timelineUnit p {
 	color: #666;
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 5px;
 }	/* Skills Section */
 .skills-section {
@@ -375,8 +376,8 @@ header {
 }
 .skills li .rating > span {
 	opacity: 0.3;
-	height: 12px;
-	width: 12px;
+	height: 10px;
+	width: 10px;
 	background-color: #757575;
 	display: block;
 	float: left;
@@ -926,7 +927,7 @@ div.footer .copyright {
 }	/*-------------------------------------------------------*/		/* Top Section */	/*-------------------------------------------------------*/		/* Logo */
 #logo h2 {
 	font-size: 25px;
-	font-weight: 900;
+	font-weight: 100;
 	color: #444;
 	line-height: 30px;
 }
@@ -1173,4 +1174,9 @@ div.top {
 	background: url('../images/tab-hover@2x.png') no-repeat;
 	background-size: 116px 114px;
 }
+}
+
+
+.socialicons a:hover {
+    color: /*mainColor*/#2AB34B;
 }
