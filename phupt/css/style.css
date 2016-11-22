@@ -159,6 +159,11 @@ header {
 .socialicons li a:hover {
 	color:/*mainColor*/#2AB34B;
 }
+
+.socialicons li a:active {
+	color:/*mainColor*/#B9B9B9;
+}
+
 .social-icons li:last-child {
 	margin-right: 0
 }
@@ -1176,7 +1181,20 @@ div.top {
 }
 }
 
-
+/*pham phu 22.11.2016*/
 .socialicons a:hover {
     color: /*mainColor*/#2AB34B;
+}
+
+
+/* Mozilla based browsers */
+::-moz-selection {
+       background-color: #2AB34B;
+       color: #fff;
+}
+
+/* Works in Safari */
+::selection {
+       background-color: #2AB34B;
+       color: #fff;
 }
