@@ -1,13 +1,9 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^phupt.net [NC]
 RewriteRule ^(.*)$ http://www.phupt.net/$1 [L,R=301,NC]
-ErrorDocument 404 /index.html
-
-
+ErrorDocument 404 http://www.phupt.net/en
 <FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
 Order Allow,Deny
 Deny from all
 </FilesMatch>
-
-
 
